@@ -1,1 +1,76 @@
-[{"number":"11","ticket":"1","Fibonacci":55},{"number":"15","ticket":"2","Fibonacci":377},{"number":"4","ticket":"3","Fibonacci":2},{"ticket":"4","Fibonacci":1},{"number":"19","ticket":"5","Fibonacci":2584},{"number":"15","ticket":"6","Fibonacci":377}]
+[
+    {
+        "number": "11",
+        "ticket": "1",
+        "Fibonacci": 55
+    },
+    {
+        "number": "15",
+        "ticket": "2",
+        "Fibonacci": 377
+    },
+    {
+        "number": "4",
+        "ticket": "3",
+        "Fibonacci": 2
+    },
+    {
+        "ticket": "4",
+        "Fibonacci": 1
+    },
+    {
+        "number": "19",
+        "ticket": "5",
+        "Fibonacci": 2584
+    },
+    {
+        "number": "15",
+        "ticket": "6",
+        "Fibonacci": 377
+    },
+    {
+        "number": "1",
+        "ticket": "7",
+        "Fibonacci": 1
+    },
+    {
+        "number": "10",
+        "ticket": "8",
+        "Fibonacci": 34
+    },
+    {
+        "number": "100",
+        "ticket": "9",
+        "Fibonacci": 218922995834555200000
+    },
+    {
+        "number": "1000",
+        "ticket": "10",
+        "Fibonacci": 2.686381002448534e+208
+    },
+    {
+        "number": "10000",
+        "ticket": "11",
+        "Fibonacci": null
+    },
+    {
+        "number": "100000",
+        "ticket": "12",
+        "Fibonacci": null
+    },
+    {
+        "number": "100000000",
+        "ticket": "13",
+        "Fibonacci": null
+    },
+    {
+        "number": "100",
+        "ticket": "14",
+        "Fibonacci": 218922995834555200000
+    },
+    {
+        "number": "10",
+        "ticket": "15",
+        "Fibonacci": 34
+    }
+]
