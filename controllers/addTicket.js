@@ -4,10 +4,9 @@ const addTicket = async (req, res) => {
   const { number } = req.body;
   const tickets = await getAllTickets();
   const newTicket = {
-    number,
     ticket: String(tickets.length + 1),
-    Fibonacci: fibonacci(number),
   };
+
   tickets.push(newTicket);
   await overwriteTickets(tickets);
   res.status(201).json({
@@ -17,6 +16,7 @@ const addTicket = async (req, res) => {
       result: { ticket: newTicket.ticket },
     },
   });
+  fibonacci(number, newTicket.ticket);
 };
 
 module.exports = addTicket;
